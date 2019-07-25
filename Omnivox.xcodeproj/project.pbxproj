@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D7CEE7422EA0C4B00282A27 /* AssignStudentForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7CEE7322EA0C4B00282A27 /* AssignStudentForm.swift */; };
+		5D7CEE7622EA0C6A00282A27 /* AssignTeacherForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7CEE7522EA0C6A00282A27 /* AssignTeacherForm.swift */; };
+		5D7CEE7822EA0E7500282A27 /* TeacherCoursesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7CEE7722EA0E7500282A27 /* TeacherCoursesTVC.swift */; };
+		5D7CEE7C22EA125300282A27 /* TeacherAvailableCoursesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7CEE7B22EA125300282A27 /* TeacherAvailableCoursesTVC.swift */; };
+		5D7CEE7E22EA140700282A27 /* StudentCoursesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7CEE7D22EA140700282A27 /* StudentCoursesTVC.swift */; };
+		5D7CEE8022EA145E00282A27 /* TableCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7CEE7F22EA145E00282A27 /* TableCallback.swift */; };
+		5D9B24CF22E5E84D00267BA3 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B24CE22E5E84D00267BA3 /* StudentCell.swift */; };
+		5D9B24D122E5E86000267BA3 /* StudentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B24D022E5E86000267BA3 /* StudentCell.xib */; };
+		5D9B24D322E5EA2F00267BA3 /* CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B24D222E5EA2F00267BA3 /* CourseCell.xib */; };
+		5D9B24D522E5EA3800267BA3 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B24D422E5EA3800267BA3 /* CourseCell.swift */; };
+		5D9B24D722E5EA4A00267BA3 /* TeacherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B24D622E5EA4A00267BA3 /* TeacherCell.swift */; };
+		5D9B24D922E5EA5300267BA3 /* TeacherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B24D822E5EA5300267BA3 /* TeacherCell.xib */; };
+		5D9B24DB22E5EC3C00267BA3 /* TabBarCoursesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B24DA22E5EC3C00267BA3 /* TabBarCoursesTVC.swift */; };
+		5D9B24DD22E5EC4D00267BA3 /* TabBarTeachersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B24DC22E5EC4D00267BA3 /* TabBarTeachersTVC.swift */; };
+		5D9B24DF22E5EC7C00267BA3 /* TeacherForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B24DE22E5EC7C00267BA3 /* TeacherForm.swift */; };
+		5D9B24E122E5EC8300267BA3 /* CourseForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B24E022E5EC8300267BA3 /* CourseForm.swift */; };
+		5D9B24E422E601C600267BA3 /* CoursesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B24E322E601C600267BA3 /* CoursesTVC.swift */; };
+		5D9B24E622E605F100267BA3 /* AvailableCoursesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B24E522E605F100267BA3 /* AvailableCoursesTVC.swift */; };
+		5DA6EC8022E0D33300ABB805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6EC7F22E0D33300ABB805 /* AppDelegate.swift */; };
+		5DA6EC8222E0D33300ABB805 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6EC8122E0D33300ABB805 /* MainVC.swift */; };
+		5DA6EC8522E0D33300ABB805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA6EC8322E0D33300ABB805 /* Main.storyboard */; };
+		5DA6EC8822E0D33300ABB805 /* Omnivox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6EC8622E0D33300ABB805 /* Omnivox.xcdatamodeld */; };
+		5DA6EC8A22E0D33400ABB805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA6EC8922E0D33400ABB805 /* Assets.xcassets */; };
+		5DA6EC8D22E0D33400ABB805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA6EC8B22E0D33400ABB805 /* LaunchScreen.storyboard */; };
+		5DA6EC9622E0DC4E00ABB805 /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6EC9522E0DC4E00ABB805 /* StudentVC.swift */; };
+		5DA6EC9922E0DCB000ABB805 /* ApiConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6EC9822E0DCB000ABB805 /* ApiConnection.swift */; };
+		5DA6EC9C22E0DEB500ABB805 /* StudentForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6EC9B22E0DEB500ABB805 /* StudentForm.swift */; };
+		5DA6ECA022E0E4AC00ABB805 /* TabBarCoursesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6EC9F22E0E4AC00ABB805 /* TabBarCoursesVC.swift */; };
+		5DA6ECA222E0E4B800ABB805 /* TabBarStudentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6ECA122E0E4B800ABB805 /* TabBarStudentsVC.swift */; };
+		5DA6ECA422E0E4CB00ABB805 /* TabBarTeachersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6ECA322E0E4CB00ABB805 /* TabBarTeachersVC.swift */; };
+		5DA6ECA722E0F62D00ABB805 /* TabBarStudentsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA6ECA622E0F62D00ABB805 /* TabBarStudentsTVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D7CEE7322EA0C4B00282A27 /* AssignStudentForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignStudentForm.swift; sourceTree = "<group>"; };
+		5D7CEE7522EA0C6A00282A27 /* AssignTeacherForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignTeacherForm.swift; sourceTree = "<group>"; };
+		5D7CEE7722EA0E7500282A27 /* TeacherCoursesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCoursesTVC.swift; sourceTree = "<group>"; };
+		5D7CEE7B22EA125300282A27 /* TeacherAvailableCoursesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TeacherAvailableCoursesTVC.swift; path = Omnivox/Controller/Employee/TeacherAvailableCoursesTVC.swift; sourceTree = SOURCE_ROOT; };
+		5D7CEE7D22EA140700282A27 /* StudentCoursesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCoursesTVC.swift; sourceTree = "<group>"; };
+		5D7CEE7F22EA145E00282A27 /* TableCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCallback.swift; sourceTree = "<group>"; };
+		5D9B24CE22E5E84D00267BA3 /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		5D9B24D022E5E86000267BA3 /* StudentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentCell.xib; sourceTree = "<group>"; };
+		5D9B24D222E5EA2F00267BA3 /* CourseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseCell.xib; sourceTree = "<group>"; };
+		5D9B24D422E5EA3800267BA3 /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		5D9B24D622E5EA4A00267BA3 /* TeacherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCell.swift; sourceTree = "<group>"; };
+		5D9B24D822E5EA5300267BA3 /* TeacherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherCell.xib; sourceTree = "<group>"; };
+		5D9B24DA22E5EC3C00267BA3 /* TabBarCoursesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoursesTVC.swift; sourceTree = "<group>"; };
+		5D9B24DC22E5EC4D00267BA3 /* TabBarTeachersTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarTeachersTVC.swift; sourceTree = "<group>"; };
+		5D9B24DE22E5EC7C00267BA3 /* TeacherForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherForm.swift; sourceTree = "<group>"; };
+		5D9B24E022E5EC8300267BA3 /* CourseForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseForm.swift; sourceTree = "<group>"; };
+		5D9B24E322E601C600267BA3 /* CoursesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTVC.swift; sourceTree = "<group>"; };
+		5D9B24E522E605F100267BA3 /* AvailableCoursesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCoursesTVC.swift; sourceTree = "<group>"; };
+		5DA6EC7C22E0D33300ABB805 /* Omnivox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omnivox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA6EC7F22E0D33300ABB805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DA6EC8122E0D33300ABB805 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		5DA6EC8422E0D33300ABB805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DA6EC8722E0D33300ABB805 /* Omnivox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Omnivox.xcdatamodel; sourceTree = "<group>"; };
+		5DA6EC8922E0D33400ABB805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DA6EC8C22E0D33400ABB805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DA6EC8E22E0D33400ABB805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA6EC9522E0DC4E00ABB805 /* StudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
+		5DA6EC9822E0DCB000ABB805 /* ApiConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConnection.swift; sourceTree = "<group>"; };
+		5DA6EC9B22E0DEB500ABB805 /* StudentForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentForm.swift; sourceTree = "<group>"; };
+		5DA6EC9F22E0E4AC00ABB805 /* TabBarCoursesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoursesVC.swift; sourceTree = "<group>"; };
+		5DA6ECA122E0E4B800ABB805 /* TabBarStudentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarStudentsVC.swift; sourceTree = "<group>"; };
+		5DA6ECA322E0E4CB00ABB805 /* TabBarTeachersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarTeachersVC.swift; sourceTree = "<group>"; };
+		5DA6ECA622E0F62D00ABB805 /* TabBarStudentsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarStudentsTVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DA6EC7922E0D33300ABB805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D9B24CD22E5E83C00267BA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D9B24D022E5E86000267BA3 /* StudentCell.xib */,
+				5D9B24CE22E5E84D00267BA3 /* StudentCell.swift */,
+				5D9B24D222E5EA2F00267BA3 /* CourseCell.xib */,
+				5D9B24D422E5EA3800267BA3 /* CourseCell.swift */,
+				5D9B24D822E5EA5300267BA3 /* TeacherCell.xib */,
+				5D9B24D622E5EA4A00267BA3 /* TeacherCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D9B24E222E601B400267BA3 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				5D9B24E322E601C600267BA3 /* CoursesTVC.swift */,
+				5D9B24E522E605F100267BA3 /* AvailableCoursesTVC.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		5DA6EC7322E0D33300ABB805 = {
+			isa = PBXGroup;
+			children = (
+				5DA6EC7E22E0D33300ABB805 /* Omnivox */,
+				5DA6EC7D22E0D33300ABB805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DA6EC7D22E0D33300ABB805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DA6EC7C22E0D33300ABB805 /* Omnivox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DA6EC7E22E0D33300ABB805 /* Omnivox */ = {
+			isa = PBXGroup;
+			children = (
+				5D9B24CD22E5E83C00267BA3 /* View */,
+				5DA6EC9A22E0DEAB00ABB805 /* Form */,
+				5DA6EC9722E0DCA400ABB805 /* REST */,
+				5DA6EC9422E0DC3800ABB805 /* Controller */,
+				5DA6EC7F22E0D33300ABB805 /* AppDelegate.swift */,
+				5DA6EC8322E0D33300ABB805 /* Main.storyboard */,
+				5DA6EC8922E0D33400ABB805 /* Assets.xcassets */,
+				5DA6EC8B22E0D33400ABB805 /* LaunchScreen.storyboard */,
+				5DA6EC8E22E0D33400ABB805 /* Info.plist */,
+				5DA6EC8622E0D33300ABB805 /* Omnivox.xcdatamodeld */,
+			);
+			path = Omnivox;
+			sourceTree = "<group>";
+		};
+		5DA6EC9422E0DC3800ABB805 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DA6EC9E22E0E46C00ABB805 /* Employee */,
+				5DA6EC9D22E0E46300ABB805 /* Student */,
+				5DA6EC8122E0D33300ABB805 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5DA6EC9722E0DCA400ABB805 /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				5DA6EC9822E0DCB000ABB805 /* ApiConnection.swift */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		5DA6EC9A22E0DEAB00ABB805 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				5D9B24E022E5EC8300267BA3 /* CourseForm.swift */,
+				5DA6EC9B22E0DEB500ABB805 /* StudentForm.swift */,
+				5D9B24DE22E5EC7C00267BA3 /* TeacherForm.swift */,
+				5D7CEE7322EA0C4B00282A27 /* AssignStudentForm.swift */,
+				5D7CEE7522EA0C6A00282A27 /* AssignTeacherForm.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		5DA6EC9D22E0E46300ABB805 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				5D9B24E222E601B400267BA3 /* Tables */,
+				5DA6EC9522E0DC4E00ABB805 /* StudentVC.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		5DA6EC9E22E0E46C00ABB805 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				5DA6ECA522E0F5E800ABB805 /* Tables */,
+				5DA6EC9F22E0E4AC00ABB805 /* TabBarCoursesVC.swift */,
+				5DA6ECA122E0E4B800ABB805 /* TabBarStudentsVC.swift */,
+				5DA6ECA322E0E4CB00ABB805 /* TabBarTeachersVC.swift */,
+				5D7CEE7F22EA145E00282A27 /* TableCallback.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		5DA6ECA522E0F5E800ABB805 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				5D9B24DA22E5EC3C00267BA3 /* TabBarCoursesTVC.swift */,
+				5DA6ECA622E0F62D00ABB805 /* TabBarStudentsTVC.swift */,
+				5D7CEE7D22EA140700282A27 /* StudentCoursesTVC.swift */,
+				5D9B24DC22E5EC4D00267BA3 /* TabBarTeachersTVC.swift */,
+				5D7CEE7722EA0E7500282A27 /* TeacherCoursesTVC.swift */,
+				5D7CEE7B22EA125300282A27 /* TeacherAvailableCoursesTVC.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DA6EC7B22E0D33300ABB805 /* Omnivox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DA6EC9122E0D33400ABB805 /* Build configuration list for PBXNativeTarget "Omnivox" */;
+			buildPhases = (
+				5DA6EC7822E0D33300ABB805 /* Sources */,
+				5DA6EC7922E0D33300ABB805 /* Frameworks */,
+				5DA6EC7A22E0D33300ABB805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omnivox;
+			productName = Omnivox;
+			productReference = 5DA6EC7C22E0D33300ABB805 /* Omnivox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DA6EC7422E0D33300ABB805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = english;
+				TargetAttributes = {
+					5DA6EC7B22E0D33300ABB805 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 5DA6EC7722E0D33300ABB805 /* Build configuration list for PBXProject "Omnivox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DA6EC7322E0D33300ABB805;
+			productRefGroup = 5DA6EC7D22E0D33300ABB805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DA6EC7B22E0D33300ABB805 /* Omnivox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DA6EC7A22E0D33300ABB805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9B24D922E5EA5300267BA3 /* TeacherCell.xib in Resources */,
+				5DA6EC8D22E0D33400ABB805 /* LaunchScreen.storyboard in Resources */,
+				5DA6EC8A22E0D33400ABB805 /* Assets.xcassets in Resources */,
+				5DA6EC8522E0D33300ABB805 /* Main.storyboard in Resources */,
+				5D9B24D322E5EA2F00267BA3 /* CourseCell.xib in Resources */,
+				5D9B24D122E5E86000267BA3 /* StudentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DA6EC7822E0D33300ABB805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9B24D722E5EA4A00267BA3 /* TeacherCell.swift in Sources */,
+				5D7CEE7622EA0C6A00282A27 /* AssignTeacherForm.swift in Sources */,
+				5D9B24DD22E5EC4D00267BA3 /* TabBarTeachersTVC.swift in Sources */,
+				5D9B24D522E5EA3800267BA3 /* CourseCell.swift in Sources */,
+				5DA6ECA222E0E4B800ABB805 /* TabBarStudentsVC.swift in Sources */,
+				5DA6EC8222E0D33300ABB805 /* MainVC.swift in Sources */,
+				5D7CEE7E22EA140700282A27 /* StudentCoursesTVC.swift in Sources */,
+				5D9B24DB22E5EC3C00267BA3 /* TabBarCoursesTVC.swift in Sources */,
+				5DA6EC9922E0DCB000ABB805 /* ApiConnection.swift in Sources */,
+				5DA6ECA722E0F62D00ABB805 /* TabBarStudentsTVC.swift in Sources */,
+				5D7CEE7C22EA125300282A27 /* TeacherAvailableCoursesTVC.swift in Sources */,
+				5DA6ECA022E0E4AC00ABB805 /* TabBarCoursesVC.swift in Sources */,
+				5DA6EC8022E0D33300ABB805 /* AppDelegate.swift in Sources */,
+				5D9B24E422E601C600267BA3 /* CoursesTVC.swift in Sources */,
+				5D9B24CF22E5E84D00267BA3 /* StudentCell.swift in Sources */,
+				5DA6EC9C22E0DEB500ABB805 /* StudentForm.swift in Sources */,
+				5D9B24DF22E5EC7C00267BA3 /* TeacherForm.swift in Sources */,
+				5D7CEE7422EA0C4B00282A27 /* AssignStudentForm.swift in Sources */,
+				5DA6ECA422E0E4CB00ABB805 /* TabBarTeachersVC.swift in Sources */,
+				5D7CEE8022EA145E00282A27 /* TableCallback.swift in Sources */,
+				5D9B24E622E605F100267BA3 /* AvailableCoursesTVC.swift in Sources */,
+				5D9B24E122E5EC8300267BA3 /* CourseForm.swift in Sources */,
+				5D7CEE7822EA0E7500282A27 /* TeacherCoursesTVC.swift in Sources */,
+				5DA6EC9622E0DC4E00ABB805 /* StudentVC.swift in Sources */,
+				5DA6EC8822E0D33300ABB805 /* Omnivox.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DA6EC8322E0D33300ABB805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA6EC8422E0D33300ABB805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DA6EC8B22E0D33400ABB805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA6EC8C22E0D33400ABB805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DA6EC8F22E0D33400ABB805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DA6EC9022E0D33400ABB805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DA6EC9222E0D33400ABB805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Omnivox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mir.Omnivox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DA6EC9322E0D33400ABB805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Omnivox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mir.Omnivox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DA6EC7722E0D33300ABB805 /* Build configuration list for PBXProject "Omnivox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA6EC8F22E0D33400ABB805 /* Debug */,
+				5DA6EC9022E0D33400ABB805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DA6EC9122E0D33400ABB805 /* Build configuration list for PBXNativeTarget "Omnivox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA6EC9222E0D33400ABB805 /* Debug */,
+				5DA6EC9322E0D33400ABB805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DA6EC8622E0D33300ABB805 /* Omnivox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DA6EC8722E0D33300ABB805 /* Omnivox.xcdatamodel */,
+			);
+			currentVersion = 5DA6EC8722E0D33300ABB805 /* Omnivox.xcdatamodel */;
+			path = Omnivox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DA6EC7422E0D33300ABB805 /* Project object */;
+}
